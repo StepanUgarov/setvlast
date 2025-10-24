@@ -1,0 +1,156 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ART-Platforma//Calendar 2025//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:АРТ-платформа - События
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VTIMEZONE
+TZID:Europe/Moscow
+X-LIC-LOCATION:Europe/Moscow
+BEGIN:STANDARD
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0300
+TZNAME:MSK
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+
+BEGIN:VEVENT
+UID:art-plat-20251018-dinner@art-platforma.moscow
+DTSTAMP:20251024T120000Z
+LAST-MODIFIED:20251024T120000Z
+DTSTART;TZID=Europe/Moscow:20251018T170000
+DTEND;TZID=Europe/Moscow:20251018T190000
+SUMMARY:АРТ-платформа - Традиционный ужин месяца (только для резидентов)
+LOCATION:Новый Манеж\, Георгиевский переулок 3/3
+DESCRIPTION:Премия АРТ-платформа. Подтверждено участие Министра Культуры Москвы. Регистрация +1 обязательна. https://art-platforma.moscow/award_invitation
+URL:https://art-platforma.moscow/award_invitation
+END:VEVENT
+
+BEGIN:VEVENT
+UID:art-plat-20251022-mspp@art-platforma.moscow
+DTSTAMP:20251024T120000Z
+LAST-MODIFIED:20251024T120000Z
+DTSTART;TZID=Europe/Moscow:20251022T163000
+DTEND;TZID=Europe/Moscow:20251022T180000
+SUMMARY:Круглый стол в Государственной Думе - МСП+
+LOCATION:Государственная Дума ФС РФ
+DESCRIPTION:Тема: Как законодательно обеспечить рост сегмента МСП+
+END:VEVENT
+
+BEGIN:VEVENT
+UID:art-plat-20251021-saudi@art-platforma.moscow
+DTSTAMP:20251024T120000Z
+LAST-MODIFIED:20251024T120000Z
+DTSTART;TZID=Europe/Moscow:20251021T090000
+DTEND;TZID=Europe/Moscow:20251026T180000
+SUMMARY:Бизнес-миссия в Саудовскую Аравию (с АРКА)
+DESCRIPTION:Бизнес-миссия в Саудовскую Аравию совместно с АНО «АРКА». Осталось 4 места.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:art-plat-20251024-salon1@art-platforma.moscow
+DTSTAMP:20251024T120000Z
+LAST-MODIFIED:20251024T120000Z
+DTSTART;TZID=Europe/Moscow:20251024T183000
+DTEND;TZID=Europe/Moscow:20251024T200000
+SUMMARY:Светский салон (тема уточняется)
+LOCATION:Отель Continental\, 3 этаж\, Зал Лисицицкий\, Тверская ул.\, 22
+DESCRIPTION:Светский салон: тема будет представлена позже. Будем повышать уровень эрудиции и восполнять духовный уровень внутренней культуры.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:art-plat-20251025-regatta@art-platforma.moscow
+DTSTAMP:20251024T120000Z
+LAST-MODIFIED:20251024T120000Z
+DTSTART;TZID=Europe/Moscow:20251025T090000
+DTEND;TZID=Europe/Moscow:20251102T180000
+SUMMARY:СЕТЬ.Путешествия - Парусная регата в Турции
+LOCATION:Мармарис\, Турция
+DESCRIPTION:Парусная регата Marmarisraceweek. Осталось 2 места.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:art-plat-20251106-finance@art-platforma.moscow
+DTSTAMP:20251024T120000Z
+LAST-MODIFIED:20251024T120000Z
+DTSTART;TZID=Europe/Moscow:20251106T183000
+DTEND;TZID=Europe/Moscow:20251106T200000
+SUMMARY:Лекторий: Финансы и налоги для бизнеса
+LOCATION:Отель Continental\, 3 этаж\, Зал Лисицицкий\, Тверская ул.\, 22
+DESCRIPTION:«Все схвачено: как бизнесу вести финансы\, платить налоги и быть прибыльным». Специальный гость ФНС РФ.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:art-plat-20251112-salon2@art-platforma.moscow
+DTSTAMP:20251024T120000Z
+LAST-MODIFIED:20251024T120000Z
+DTSTART;TZID=Europe/Moscow:20251112T183000
+DTEND;TZID=Europe/Moscow:20251112T200000
+SUMMARY:Светский салон
+LOCATION:Отель Continental\, 3 этаж\, Зал Лисицицкий\, Тверская ул.\, 22
+END:VEVENT
+
+BEGIN:VEVENT
+UID:art-plat-20251114-strategy@art-platforma.moscow
+DTSTAMP:20251024T120000Z
+LAST-MODIFIED:20251024T120000Z
+DTSTART;TZID=Europe/Moscow:20251114T183000
+DTEND;TZID=Europe/Moscow:20251114T200000
+SUMMARY:Стратегические разборы от Гарретта Джонстона
+LOCATION:Отель Continental\, 3 этаж\, Зал Лисицицкий\, Тверская ул.\, 22
+DESCRIPTION:Новый формат: разбор кейсов резидентов и выстраивание стратегии.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:art-plat-20251118-duma-tech@art-platforma.moscow
+DTSTAMP:20251024T120000Z
+LAST-MODIFIED:20251024T120000Z
+DTSTART;TZID=Europe/Moscow:20251118T160000
+DTEND;TZID=Europe/Moscow:20251118T180000
+SUMMARY:Круглый стол в Госдуме - Технологический суверенитет
+LOCATION:Государственная Дума ФС РФ
+DESCRIPTION:Тема: Технологический суверенитет\, финансирование исследований и разработок\, право интеллектуальной собственности.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:art-plat-20251119-salon3@art-platforma.moscow
+DTSTAMP:20251024T120000Z
+LAST-MODIFIED:20251024T120000Z
+DTSTART;TZID=Europe/Moscow:20251119T183000
+DTEND;TZID=Europe/Moscow:20251119T220000
+SUMMARY:Светский салон
+LOCATION:Уточняем
+END:VEVENT
+
+BEGIN:VEVENT
+UID:art-plat-20251128-grclub@art-platforma.moscow
+DTSTAMP:20251024T120000Z
+LAST-MODIFIED:20251024T120000Z
+DTSTART;TZID=Europe/Moscow:20251128T183000
+DTEND;TZID=Europe/Moscow:20251128T200000
+SUMMARY:GR клуб
+END:VEVENT
+
+BEGIN:VEVENT
+UID:art-plat-20251129-dinner2@art-platforma.moscow
+DTSTAMP:20251024T120000Z
+LAST-MODIFIED:20251024T120000Z
+DTSTART;TZID=Europe/Moscow:20251129T170000
+DTEND;TZID=Europe/Moscow:20251129T190000
+SUMMARY:СЕТЬ Лидеров - Традиционный ужин
+END:VEVENT
+
+BEGIN:VEVENT
+UID:art-plat-20251227-ball@art-platforma.moscow
+DTSTAMP:20251024T120000Z
+LAST-MODIFIED:20251024T120000Z
+DTSTART;TZID=Europe/Moscow:20251227T170000
+DTEND;TZID=Europe/Moscow:20251227T220000
+SUMMARY:ЖЕМЧУЖНЫЙ БАЛ в Метрополе
+LOCATION:Отель Метрополь
+DESCRIPTION:Жемчужный Бал сообщества.
+END:VEVENT
+
+END:VCALENDAR
