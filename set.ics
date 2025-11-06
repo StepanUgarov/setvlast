@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Сеть Лидеров//Calendar 2025//RU
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:АРТ-платформа - События
+X-WR-CALNAME:Сеть Лидеров - События
 X-WR-TIMEZONE:Europe/Moscow
 BEGIN:VTIMEZONE
 TZID:Europe/Moscow
