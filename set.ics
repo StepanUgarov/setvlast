@@ -72,74 +72,80 @@ DESCRIPTION:Парусная регата Marmarisraceweek. Осталось 2 �
 END:VEVENT
 
 BEGIN:VEVENT
-UID:art-plat-20251106-finance@art-platforma.moscow
-DTSTAMP:20251024T120000Z
-LAST-MODIFIED:20251024T120000Z
+UID:20251106_lecture@network-leaders.ru
+SUMMARY:Лекторий: Финансы и налоги для бизнеса
 DTSTART;TZID=Europe/Moscow:20251106T183000
 DTEND;TZID=Europe/Moscow:20251106T200000
-SUMMARY:Лекторий: Финансы и налоги для бизнеса
 LOCATION:Отель Continental\, 3 этаж\, Зал Лисицицкий\, Тверская ул.\, 22
 DESCRIPTION:«Все схвачено: как бизнесу вести финансы\, платить налоги и быть прибыльным». Специальный гость ФНС РФ.
+DTSTAMP:20250101T000000Z
+SEQUENCE:1
 END:VEVENT
-
 BEGIN:VEVENT
-UID:art-plat-20251112-salon2@art-platforma.moscow
-DTSTAMP:20251024T120000Z
-LAST-MODIFIED:20251024T120000Z
-DTSTART;TZID=Europe/Moscow:20251112T183000
-DTEND;TZID=Europe/Moscow:20251112T200000
-SUMMARY:Светский салон
-LOCATION:Отель Continental\, 3 этаж\, Зал Лисицицкий\, Тверская ул.\, 22
+UID:20251114_gr_online@network-leaders.ru
+SUMMARY:GR приемная - консультации по GR (тариф «закрытый клуб»)
+DTSTART;TZID=Europe/Moscow:20251114T100000
+DTEND;TZID=Europe/Moscow:20251114T120000
+LOCATION:онлайн
+DESCRIPTION:Новый формат: GR приемная - консультации по GR для тарифа «закрытый клуб»
+DTSTAMP:20250101T000000Z
+SEQUENCE:1
 END:VEVENT
-
 BEGIN:VEVENT
-UID:art-plat-20251114-strategy@art-platforma.moscow
-DTSTAMP:20251024T120000Z
-LAST-MODIFIED:20251024T120000Z
+UID:20251114_strategy@network-leaders.ru
+SUMMARY:Стратегические разборы
 DTSTART;TZID=Europe/Moscow:20251114T183000
 DTEND;TZID=Europe/Moscow:20251114T200000
-SUMMARY:Стратегические разборы от Гарретта Джонстона
 LOCATION:Отель Continental\, 3 этаж\, Зал Лисицицкий\, Тверская ул.\, 22
-DESCRIPTION:Новый формат: разбор кейсов резидентов и выстраивание стратегии.
+DESCRIPTION:Новый формат: стратегические разборы. Разбор кейсов резидентов и выстраивание стратегии.
+DTSTAMP:20250101T000000Z
+SEQUENCE:1
 END:VEVENT
-
 BEGIN:VEVENT
-UID:art-plat-20251118-duma-tech@art-platforma.moscow
-DTSTAMP:20251024T120000Z
-LAST-MODIFIED:20251024T120000Z
+UID:20251118_duma_msb@network-leaders.ru
+SUMMARY:Круглый стол в Госдуме - рост сегмента МСП
 DTSTART;TZID=Europe/Moscow:20251118T160000
 DTEND;TZID=Europe/Moscow:20251118T180000
-SUMMARY:Круглый стол в Госдуме - Технологический суверенитет
 LOCATION:Государственная Дума ФС РФ
-DESCRIPTION:Тема: Технологический суверенитет\, финансирование исследований и разработок\, право интеллектуальной собственности.
+DESCRIPTION:Круглый стол в Государственной Думе по линии Комитета по экономике: как законодательно обеспечить рост сегмента МСП
+DTSTAMP:20250101T000000Z
+SEQUENCE:1
 END:VEVENT
-
 BEGIN:VEVENT
-UID:art-plat-20251119-salon3@art-platforma.moscow
-DTSTAMP:20251024T120000Z
-LAST-MODIFIED:20251024T120000Z
+UID:20251119_salon@network-leaders.ru
+SUMMARY:Светский салон (перенос с 12.11)
 DTSTART;TZID=Europe/Moscow:20251119T183000
-DTEND;TZID=Europe/Moscow:20251119T220000
-SUMMARY:Светский салон
-LOCATION:Уточняем
+DTEND;TZID=Europe/Moscow:20251119T200000
+LOCATION:Отель Continental\, 3 этаж\, Зал Лисицицкий\, Тверская ул.\, 22
+DESCRIPTION:Светский салон. Перенос с 12.11
+DTSTAMP:20250101T000000Z
+SEQUENCE:1
 END:VEVENT
-
 BEGIN:VEVENT
-UID:art-plat-20251128-grclub@art-platforma.moscow
-DTSTAMP:20251024T120000Z
-LAST-MODIFIED:20251024T120000Z
+UID:20251124_conference@network-leaders.ru
+SUMMARY:Конференция ГД «Приоритеты социально-экономического развития России»
+DTSTART;TZID=Europe/Moscow:20251124T090000
+DTEND;TZID=Europe/Moscow:20251124T150000
+LOCATION:Государственная Дума ФС РФ
+DESCRIPTION:Большая межфракционная конференция ГД «Приоритеты социально - экономического развития России». Запись обязательна.
+DTSTAMP:20250101T000000Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:20251128_gr_club@network-leaders.ru
+SUMMARY:GR клуб
 DTSTART;TZID=Europe/Moscow:20251128T183000
 DTEND;TZID=Europe/Moscow:20251128T200000
-SUMMARY:GR клуб
+DTSTAMP:20250101T000000Z
+SEQUENCE:1
 END:VEVENT
-
 BEGIN:VEVENT
-UID:art-plat-20251129-dinner2@art-platforma.moscow
-DTSTAMP:20251024T120000Z
-LAST-MODIFIED:20251024T120000Z
+UID:20251129_dinner@network-leaders.ru
+SUMMARY:Традиционный ужин сообщества СЕТЬ Лидеров
 DTSTART;TZID=Europe/Moscow:20251129T170000
 DTEND;TZID=Europe/Moscow:20251129T190000
-SUMMARY:СЕТЬ Лидеров - Традиционный ужин
+DTSTAMP:20250101T000000Z
+SEQUENCE:1
 END:VEVENT
 
 BEGIN:VEVENT
