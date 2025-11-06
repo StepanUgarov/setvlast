@@ -17,7 +17,7 @@ END:STANDARD
 END:VTIMEZONE
 
 BEGIN:VEVENT
-UID:art-plat-20251018-dinner@art-platforma.moscow
+UID:art-plat-20251018-dinner@сообщество-сеть.рф
 DTSTAMP:20251024T120000Z
 LAST-MODIFIED:20251024T120000Z
 DTSTART;TZID=Europe/Moscow:20251018T170000
@@ -29,7 +29,7 @@ URL:https://art-platforma.moscow/award_invitation
 END:VEVENT
 
 BEGIN:VEVENT
-UID:art-plat-20251022-mspp@art-platforma.moscow
+UID:art-plat-20251022-mspp@сообщество-сеть.рф
 DTSTAMP:20251024T120000Z
 LAST-MODIFIED:20251024T120000Z
 DTSTART;TZID=Europe/Moscow:20251022T163000
@@ -40,7 +40,7 @@ DESCRIPTION:Тема: Как законодательно обеспечить �
 END:VEVENT
 
 BEGIN:VEVENT
-UID:art-plat-20251021-saudi@art-platforma.moscow
+UID:art-plat-20251021-saudi@сообщество-сеть.рф
 DTSTAMP:20251024T120000Z
 LAST-MODIFIED:20251024T120000Z
 DTSTART;TZID=Europe/Moscow:20251021T090000
@@ -50,7 +50,7 @@ DESCRIPTION:Бизнес-миссия в Саудовскую Аравию со�
 END:VEVENT
 
 BEGIN:VEVENT
-UID:art-plat-20251024-salon1@art-platforma.moscow
+UID:art-plat-20251024-salon1@сообщество-сеть.рф
 DTSTAMP:20251024T120000Z
 LAST-MODIFIED:20251024T120000Z
 DTSTART;TZID=Europe/Moscow:20251024T183000
@@ -61,7 +61,7 @@ DESCRIPTION:Светский салон: тема будет представл�
 END:VEVENT
 
 BEGIN:VEVENT
-UID:art-plat-20251025-regatta@art-platforma.moscow
+UID:art-plat-20251025-regatta@сообщество-сеть.рф
 DTSTAMP:20251024T120000Z
 LAST-MODIFIED:20251024T120000Z
 DTSTART;TZID=Europe/Moscow:20251025T090000
@@ -72,7 +72,7 @@ DESCRIPTION:Парусная регата Marmarisraceweek. Осталось 2 �
 END:VEVENT
 
 BEGIN:VEVENT
-UID:20251106_lecture@network-leaders.ru
+UID:20251106_lecture@сообщество-сеть.рф
 SUMMARY:Лекторий: Финансы и налоги для бизнеса
 DTSTART;TZID=Europe/Moscow:20251106T183000
 DTEND;TZID=Europe/Moscow:20251106T200000
@@ -82,7 +82,7 @@ DTSTAMP:20250101T000000Z
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
-UID:20251114_gr_online@network-leaders.ru
+UID:20251114_gr_online@сообщество-сеть.рф
 SUMMARY:GR приемная - консультации по GR (тариф «закрытый клуб»)
 DTSTART;TZID=Europe/Moscow:20251114T100000
 DTEND;TZID=Europe/Moscow:20251114T120000
@@ -92,7 +92,7 @@ DTSTAMP:20250101T000000Z
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
-UID:20251114_strategy@network-leaders.ru
+UID:20251114_strategy@сообщество-сеть.рф
 SUMMARY:Стратегические разборы
 DTSTART;TZID=Europe/Moscow:20251114T183000
 DTEND;TZID=Europe/Moscow:20251114T200000
@@ -102,7 +102,7 @@ DTSTAMP:20250101T000000Z
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
-UID:20251118_duma_msb@network-leaders.ru
+UID:20251118_duma_msb@сообщество-сеть.рф
 SUMMARY:Круглый стол в Госдуме - рост сегмента МСП
 DTSTART;TZID=Europe/Moscow:20251118T160000
 DTEND;TZID=Europe/Moscow:20251118T180000
@@ -112,7 +112,7 @@ DTSTAMP:20250101T000000Z
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
-UID:20251119_salon@network-leaders.ru
+UID:20251119_salon@сообщество-сеть.рф
 SUMMARY:Светский салон (перенос с 12.11)
 DTSTART;TZID=Europe/Moscow:20251119T183000
 DTEND;TZID=Europe/Moscow:20251119T200000
@@ -122,7 +122,7 @@ DTSTAMP:20250101T000000Z
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
-UID:20251124_conference@network-leaders.ru
+UID:20251124_conference@сообщество-сеть.рф
 SUMMARY:Конференция ГД «Приоритеты социально-экономического развития России»
 DTSTART;TZID=Europe/Moscow:20251124T090000
 DTEND;TZID=Europe/Moscow:20251124T150000
@@ -132,7 +132,7 @@ DTSTAMP:20250101T000000Z
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
-UID:20251128_gr_club@network-leaders.ru
+UID:20251128_gr_club@сообщество-сеть.рф
 SUMMARY:GR клуб
 DTSTART;TZID=Europe/Moscow:20251128T183000
 DTEND;TZID=Europe/Moscow:20251128T200000
@@ -140,7 +140,7 @@ DTSTAMP:20250101T000000Z
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
-UID:20251129_dinner@network-leaders.ru
+UID:20251129_dinner@сообщество-сеть.рф
 SUMMARY:Традиционный ужин сообщества СЕТЬ Лидеров
 DTSTART;TZID=Europe/Moscow:20251129T170000
 DTEND;TZID=Europe/Moscow:20251129T190000
@@ -149,7 +149,7 @@ SEQUENCE:1
 END:VEVENT
 
 BEGIN:VEVENT
-UID:art-plat-20251227-ball@art-platforma.moscow
+UID:art-plat-20251227-ball@сообщество-сеть.рф
 DTSTAMP:20251024T120000Z
 LAST-MODIFIED:20251024T120000Z
 DTSTART;TZID=Europe/Moscow:20251227T170000
