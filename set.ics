@@ -140,7 +140,7 @@ DTSTAMP:20250101T000000Z
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
-UID:20251128_dinner@network-leaders.ru
+UID:20251129_dinner@network-leaders.ru
 SUMMARY:Традиционный ужин сообщества СЕТЬ Лидеров
 DTSTART;TZID=Europe/Moscow:20251129T170000
 DTEND;TZID=Europe/Moscow:20251129T190000
