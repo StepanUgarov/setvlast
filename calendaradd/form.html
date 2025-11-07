@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Добавить событие — СЕТЬ ВЛАСТИ</title>
+<style>
+body { font-family: system-ui, sans-serif; max-width: 600px; margin: 40px auto; background: #f9f9f9; padding: 20px; border-radius: 16px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+input, textarea { width: 100%; margin: 10px 0; padding: 10px; border-radius: 8px; border: 1px solid #ccc; font-size: 16px; }
+button { width: 100%; background: #222; color: white; border: none; padding: 12px; font-size: 18px; border-radius: 10px; cursor: pointer; }
+button:hover { background: #444; }
+</style>
+</head>
+<body>
+  <h1>📅 Добавить событие</h1>
+  <input id="summary" placeholder="Название события">
+  <textarea id="description" rows="3" placeholder="Описание"></textarea>
+  <input id="location" placeholder="Место проведения">
+  <label>Дата начала</label>
+  <input id="start" type="datetime-local">
+  <label>Дата окончания</label>
+  <input id="end" type="datetime-local">
+  <button onclick="submitEvent()">Добавить</button>
+
+  <p style="text-align:center; margin-top:20px;">
+    Подписка на календарь:  
+    <a href="/calendar.ics">calendar.ics</a>
+  </p>
+
+  <script>
+    async function submitEvent() {
+      const event = {
+        summary: document.getElementById("summary").value,
+        description: document.getElementById("description").value,
+        location: document.getElementById("location").value,
+        start: document.getElementById("start").value,
+        end: document.getElementById("end").value
+      };
+      const res = await fetch("/add", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify(event)
+      });
+      const data = await res.json();
+      if (data.status === "ok") alert("✅ Событие добавлено!");
+      else alert("❌ Ошибка при добавлении.");
+    }
+  </script>
+</body>
+</html>
