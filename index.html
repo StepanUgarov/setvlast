@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Редактор календаря СЕТЬ ВЛАСТИ</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      max-width: 600px;
+      margin: 40px auto;
+      background: #f7f7f7;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #222;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: 600;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+    button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 12px;
+      background: #222;
+      color: #fff;
+      font-size: 18px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #444;
+    }
+    .note {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #555;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Добавить событие</h1>
+
+  <label>Название события</label>
+  <input id="summary" placeholder="Например: Круглый стол в Госдуме">
+
+  <label>Описание</label>
+  <textarea id="description" rows="3" placeholder="О чём мероприятие, кто участвует..."></textarea>
+
+  <label>Место проведения</label>
+  <input id="location" placeholder="Например: Государственная Дума, Москва">
+
+  <label>Дата начала</label>
+  <input id="start" type="datetime-local">
+
+  <label>Дата окончания</label>
+  <input id="end" type="datetime-local">
+
+  <button onclick="generateICS()">📅 Скачать событие (.ics)</button>
+
+  <p class="note">Файл можно импортировать в Google, Apple или Outlook Calendar</p>
+
+  <script>
+    function generateICS() {
+      const summary = document.getElementById('summary').value.trim();
+      const description = document.getElementById('description').value.trim();
+      const location = document.getElementById('location').value.trim();
+      const start = new Date(document.getElementById('start').value);
+      const end = new Date(document.getElementById('end').value);
+
+      if (!summary || !start || !end) {
+        alert("Пожалуйста, заполните название и даты события.");
+        return;
+      }
+
+      function formatDate(date) {
+        return date.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
+      }
+
+      const uid = 'event-' + Date.now() + '@setvlast';
+      const now = formatDate(new Date());
+
+      const icsContent = `
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SetVlast//Calendar Generator//RU
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:${uid}
+DTSTAMP:${now}
+DTSTART:${formatDate(start)}
+DTEND:${formatDate(end)}
+SUMMARY:${summary}
+DESCRIPTION:${description}
+LOCATION:${location}
+END:VEVENT
+END:VCALENDAR`;
+
+      const blob = new Blob([icsContent.trim()], { type: 'text/calendar;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `${summary}.ics`;
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+  </script>
+</body>
+</html>
