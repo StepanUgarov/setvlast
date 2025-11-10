@@ -104,7 +104,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:20251115_strategy@сообщество-сеть.рф
-SUMMARY:GR-киноклубе
+SUMMARY:GR-киноклуб
 DTSTART;TZID=Europe/Moscow:20251115T170000
 DTEND;TZID=Europe/Moscow:20251115T210000
 LOCATION:Сообщим после регистрации
