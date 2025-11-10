@@ -144,6 +144,20 @@ DESCRIPTION:Большая межфракционная конференция �
 DTSTAMP:20250101T000000Z
 SEQUENCE:1
 END:VEVENT
+
+
+BEGIN:VEVENT
+UID:20251126_banya@сообщество-сеть.рф
+SUMMARY:Банный клуб Сообщества Сеть
+DTSTART;TZID=Europe/Moscow:20251126T183000
+DTEND;TZID=Europe/Moscow:20251126T220000
+LOCATION:Выбираем
+DESCRIPTION:Традиционная встреча банного клуба
+DTSTAMP:20250101T000000Z
+SEQUENCE:1
+END:VEVENT
+
+
 BEGIN:VEVENT
 UID:20251128_gr_club@сообщество-сеть.рф
 SUMMARY:GR клуб
