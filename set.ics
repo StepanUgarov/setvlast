@@ -101,6 +101,19 @@ DESCRIPTION:Новый формат: стратегические разборы
 DTSTAMP:20250101T000000Z
 SEQUENCE:1
 END:VEVENT
+
+BEGIN:VEVENT
+UID:20251115_strategy@сообщество-сеть.рф
+SUMMARY:GR-киноклубе
+DTSTART;TZID=Europe/Moscow:20251115T170000
+DTEND;TZID=Europe/Moscow:20251115T210000
+LOCATION:Сообщим после регистрации
+DESCRIPTION: Стоимость 5000 руб. Разбор проведёт Олег Игоревич Ляховенко — кандидат политических наук, преподаватель факультета политологии МГУ, специалист по вопросам российской политики.
+DTSTAMP:20250101T000000Z
+SEQUENCE:1
+END:VEVENT
+
+
 BEGIN:VEVENT
 UID:20251118_duma_msb@сообщество-сеть.рф
 SUMMARY:Круглый стол в Госдуме - рост сегмента МСП
