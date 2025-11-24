@@ -1,0 +1,126 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Business Leaders Network//RU
+CALSCALE:GREGORIAN
+
+BEGIN:VEVENT
+SUMMARY:Строительный кластер - Итоги строительного сезона 2025
+DTSTART;VALUE=DATE:20251128
+DTEND;VALUE=DATE:20251129
+DESCRIPTION:Концентрация застройщиков и подрядчиков. Проблемы с Минстроем\, разрешениями\, Ростехнадзором.\nСайт: https://nostroy.ru/events/
+LOCATION:Москва\, Деловой центр НОСТРОЙ
+CATEGORIES:Строительный кластер
+URL:https://nostroy.ru/events/
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Промышленный кластер - Импортозамещение в промышленности
+DTSTART;VALUE=DATE:20251202
+DTEND;VALUE=DATE:20251203
+DESCRIPTION:Производители. Госзаказ\, взаимодействие с Минпромторгом.\nСайт: https://mos-tpp.ru/events/
+LOCATION:Москва\, ТПП
+CATEGORIES:Промышленный кластер
+URL:https://mos-tpp.ru/events/
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Топливно-энергетический кластер - Форум малых предприятий ТЭК
+DTSTART;VALUE=DATE:20251203
+DTEND;VALUE=DATE:20251204
+DESCRIPTION:Независимые нефтетрейдеры\, сети АЗС. Регулирование Минэнерго.\nСайт: https://tpprf.ru/ru/events/
+LOCATION:Москва\, ТПП РФ
+CATEGORIES:Топливно-энергетический кластер
+URL:https://tpprf.ru/ru/events/
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Медицинский кластер - Частная медицина: вызовы и возможности
+DTSTART;VALUE=DATE:20251204
+DTEND;VALUE=DATE:20251205
+DESCRIPTION:Владельцы клиник и лабораторий. Лицензирование\, Росздравнадзор.\nСайт: https://privateclinics.ru/events
+LOCATION:Москва\, Ассоциация частных клиник
+CATEGORIES:Медицинский кластер
+URL:https://privateclinics.ru/events
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:IT-кластер - IT-Dinner Итоги года: господдержка и регулирование
+DTSTART;VALUE=DATE:20251205
+DTEND;VALUE=DATE:20251206
+DESCRIPTION:IT-компании. Аккредитация Минцифры\, гранты\, Фонд содействия инновациям.\nСайт: https://racek.ru/events/
+LOCATION:Москва\, РАЭК
+CATEGORIES:IT-кластер
+URL:https://racek.ru/events/
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Культурный кластер - Бизнес в сфере культуры
+DTSTART;VALUE=DATE:20251206
+DTEND;VALUE=DATE:20251207
+DESCRIPTION:Владельцы арт-пространств\, галерей. Гранты\, работа с Минкультом.\nСайт: https://winzavod.ru/events/
+LOCATION:Москва\, Винзавод
+CATEGORIES:Культурный кластер
+URL:https://winzavod.ru/events/
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:HoReCa кластер - Зимний бранч сообщества рестораторов
+DTSTART;VALUE=DATE:20251207
+DTEND;VALUE=DATE:20251208
+DESCRIPTION:Владельцы ресторанов\, кафе. Роспотребнадзор\, лицензирование на алкоголь.\nСайт: https://frio.ru/events
+LOCATION:Москва\, Федерация рестораторов
+CATEGORIES:HoReCa кластер
+URL:https://frio.ru/events
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Юридический кластер - Коктейль для владельцев юридических фирм
+DTSTART;VALUE=DATE:20251209
+DTEND;VALUE=DATE:20251210
+DESCRIPTION:Владельцы юридического бизнеса. Взаимодействие с Минюстом и судами.\nСайт: https://advpalata.ru/events
+LOCATION:Москва\, Адвокатская палата
+CATEGORIES:Юридический кластер
+URL:https://advpalata.ru/events
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Транспортный кластер - Транспортная логистика: диалог с регуляторами
+DTSTART;VALUE=DATE:20251210
+DTEND;VALUE=DATE:20251211
+DESCRIPTION:Владельцы автопарков\, логистических компаний. Ространснадзор.\nСайт: https://asmap.ru/events
+LOCATION:Москва\, АСМАП
+CATEGORIES:Транспортный кластер
+URL:https://asmap.ru/events
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Образовательный кластер - Частное образование: новые правила игры
+DTSTART;VALUE=DATE:20251211
+DTEND;VALUE=DATE:20251212
+DESCRIPTION:Владельцы частных школ\, детских садов. Лицензирование\, проверки Рособрнадзора.\nСайт: https://ano.org/events
+LOCATION:Москва\, Ассоциация негосударственных образовательных учреждений
+CATEGORIES:Образовательный кластер
+URL:https://ano.org/events
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Финансово-инвестиционный кластер - Финансовый рынок 2026
+DTSTART;VALUE=DATE:20251212
+DTEND;VALUE=DATE:20251213
+DESCRIPTION:Финтех-стартапы\, управляющие компании. Регулирование ЦБ РФ\, Минфин.\nСайт: https://moex.com/events
+LOCATION:Москва\, Московская биржа
+CATEGORIES:Финансово-инвестиционный кластер
+URL:https://moex.com/events
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Туристический кластер - Туризм 2026: государство и бизнес
+DTSTART;VALUE=DATE:20251213
+DTEND;VALUE=DATE:20251214
+DESCRIPTION:Туроператоры\, владельцы хостелов. Реестр туроператоров\, Ростуризм.\nСайт: https://ator.ru/events
+LOCATION:Москва\, АТОР
+CATEGORIES:Туристический кластер
+URL:https://ator.ru/events
+END:VEVENT
+
+END:VCALENDAR
