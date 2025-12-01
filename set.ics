@@ -176,14 +176,143 @@ SEQUENCE:1
 END:VEVENT
 
 BEGIN:VEVENT
-UID:art-plat-20251227-ball@сообщество-сеть.рф
-DTSTAMP:20251024T120000Z
-LAST-MODIFIED:20251024T120000Z
+UID:20251205_onboard@сообщество-сеть.рф
+DTSTAMP:20250101T000000Z
+SUMMARY:Тематический ужин «onboard» для новых резидентов
+DTSTART;TZID=Europe/Moscow:20251205T183000
+DTEND;TZID=Europe/Moscow:20251205T210000
+LOCATION:Ресторан OBLAKO City, Пресненская наб., 6/2, Башня Империя, 58 этаж
+DESCRIPTION:Новый формат onboard-ужина. Места ограничены.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Напоминание за 1 день
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Напоминание за 1 час
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251209_heritage@сообщество-сеть.рф
+DTSTAMP:20250101T000000Z
+SUMMARY:Лекция «Наше наследие»
+DTSTART;TZID=Europe/Moscow:20251209T183000
+DTEND;TZID=Europe/Moscow:20251209T200000
+LOCATION:Усадьба Белая Дача, Мкр. Белая дача 1А
+DESCRIPTION:Лекция о наследственных стратегиях для бизнеса.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Напоминание за 1 день
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Напоминание за 1 час
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251210_breakfast@сообщество-сеть.рф
+DTSTAMP:20250101T000000Z
+SUMMARY:Бизнес-завтрак «Презентация СЕТИ»
+DTSTART;TZID=Europe/Moscow:20251210T100000
+DTEND;TZID=Europe/Moscow:20251210T113000
+LOCATION:Уточняется
+DESCRIPTION:Презентация сообщества СЕТЬ. Регистрация по ссылке.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Напоминание за 1 день
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Напоминание за 1 час
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251211_salon_lecture@сообщество-сеть.рф
+DTSTAMP:20250101T000000Z
+SUMMARY:Светский клуб — лекция «Православие в постмодерне»
+DTSTART;TZID=Europe/Moscow:20251211T183000
+DTEND;TZID=Europe/Moscow:20251211T200000
+LOCATION:Отель Continental, 3 этаж, Зал Лисицицкий
+DESCRIPTION:Тема: Православие в постмодерне.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Напоминание за 1 день
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Напоминание за 1 час
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251212_gr_online@сообщество-сеть.рф
+DTSTAMP:20250101T000000Z
+SUMMARY:GR приемная (онлайн)
+DTSTART;TZID=Europe/Moscow:20251212T100000
+DTEND;TZID=Europe/Moscow:20251212T110000
+LOCATION:онлайн
+DESCRIPTION:GR-приемная для тарифа «закрытый клуб».
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Напоминание за 1 день
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Напоминание за 1 час
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251218_gr_club@сообщество-сеть.рф
+DTSTAMP:20250101T000000Z
+SUMMARY:GR клуб — лекция от Минпромторга
+DTSTART;TZID=Europe/Moscow:20251218T183000
+DTEND;TZID=Europe/Moscow:20251218T200000
+LOCATION:Уточняется
+DESCRIPTION:Специальная лекция Минпромторга.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Напоминание за 1 день
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Напоминание за 1 час
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:20251227_ball@сообщество-сеть.рф
+DTSTAMP:20250101T000000Z
+SUMMARY:Жемчужный Бал
 DTSTART;TZID=Europe/Moscow:20251227T170000
 DTEND;TZID=Europe/Moscow:20251227T220000
-SUMMARY:ЖЕМЧУЖНЫЙ БАЛ в Метрополе
-LOCATION:Отель Метрополь
-DESCRIPTION:Жемчужный Бал сообщества.
+LOCATION:Уточняется
+DESCRIPTION:Жемчужный Бал сообщества. Детали будут высланы позже.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Напоминание за 1 день
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Напоминание за 1 час
+END:VALARM
 END:VEVENT
 
 END:VCALENDAR
